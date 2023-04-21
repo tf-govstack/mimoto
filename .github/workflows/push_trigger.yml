@@ -121,7 +121,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.RELEASE_TOKEN}}
           GPG_TTY: $(tty)
- #     - uses: 8398a7/action-slack@v3
+ ##     - uses: 8398a7/action-slack@v3
  #       with:
  #         status: ${{ job.status }}
  #         fields: repo,message,author,workflow # selectable (default: repo,message)
