@@ -7,7 +7,7 @@
         <version>2.0.2.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>io.mosip</groupId>
+    <groupId>io.github.tf-govstack</groupId>
     <artifactId>mimoto</artifactId>
     <version>1.2.0.1-SNAPSHOT</version>
     <name>mimoto</name>
@@ -123,25 +123,25 @@
 
         <!-- MOSIP -->
         <dependency>
-            <groupId>io.mosip.kernel</groupId>
+            <groupId>io.github.tf-govstack.kernel</groupId>
             <artifactId>kernel-logger-logback</artifactId>
             <version>${mosip.kernel.core.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.mosip.kernel</groupId>
+            <groupId>io.github.tf-govstack.kernel</groupId>
             <artifactId>kernel-auth-adapter</artifactId>
             <version>${mosip.kernel.core.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.mosip.kernel</groupId>
+            <groupId>io.github.tf-govstack.kernel</groupId>
             <artifactId>kernel-websubclient-api</artifactId>
             <version>${mosip.kernel.core.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.mosip.biometric.util</groupId>
+            <groupId>io.github.tf-govstack.biometric.util</groupId>
             <artifactId>biometrics-util</artifactId>
             <version>${mosip.biometric.util.version}</version>
         </dependency>
@@ -316,7 +316,7 @@
         <repository>
             <id>ossrh</id>
             <name>Central Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
             <layout>default</layout>
             <snapshots>
                 <enabled>true</enabled>
@@ -327,11 +327,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
@@ -398,7 +398,7 @@
                             <rules>
                                 <bannedDependencies>
                                     <excludes>
-                                        <exclude>io.mosip.kernel:kernel-parent</exclude>
+                                        <exclude>io.github.tf-govstack.kernel:kernel-parent</exclude>
                                     </excludes>
                                 </bannedDependencies>
                             </rules>
@@ -474,7 +474,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>false</autoReleaseAfterClose>
                 </configuration>
             </plugin>
