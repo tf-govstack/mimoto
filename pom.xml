@@ -123,25 +123,25 @@
 
         <!-- MOSIP -->
         <dependency>
-            <groupId>io.github.tf-govstack.kernel</groupId>
+            <groupId>io.mosip.kernel</groupId>
             <artifactId>kernel-logger-logback</artifactId>
             <version>${mosip.kernel.core.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.github.tf-govstack.kernel</groupId>
+            <groupId>io.mosip.kernel</groupId>
             <artifactId>kernel-auth-adapter</artifactId>
             <version>${mosip.kernel.core.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.github.tf-govstack.kernel</groupId>
+            <groupId>io.mosip.kernel</groupId>
             <artifactId>kernel-websubclient-api</artifactId>
             <version>${mosip.kernel.core.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.github.tf-govstack.biometric.util</groupId>
+            <groupId>io.mosip.biometric.util</groupId>
             <artifactId>biometrics-util</artifactId>
             <version>${mosip.biometric.util.version}</version>
         </dependency>
