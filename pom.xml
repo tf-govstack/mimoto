@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.github.tf-govstack</groupId>
     <artifactId>mimoto</artifactId>
-    <version>1.2.0.1-SNAPSHOT</version>
+    <version>Nexus-testing-SNAPSHOT</version>
     <name>mimoto</name>
     <description>Mobile server backend supporting Inji.</description>
 
@@ -398,7 +398,7 @@
                             <rules>
                                 <bannedDependencies>
                                     <excludes>
-                                        <exclude>io.github.tf-govstack.kernel:kernel-parent</exclude>
+                                        <exclude>io.mosip.kernel:kernel-parent</exclude>
                                     </excludes>
                                 </bannedDependencies>
                             </rules>
@@ -497,7 +497,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>1.5</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
