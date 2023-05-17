@@ -506,7 +506,10 @@
                             <goal>sign</goal>
                         </goals>
                         <configuration>
-                <skip>true</skip>
+                            <gpgArguments>
+                                <arg>--pinentry-mode</arg>
+                                <arg>loopback</arg>
+                            </gpgArguments>
                             <keyname>$Technoforte-Injiapp</keyname>
                             <passphraseServerId>$Technoforte-Injiapp</passphraseServerId>
                         </configuration>
