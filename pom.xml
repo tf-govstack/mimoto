@@ -511,10 +511,6 @@
                                 <arg>loopback</arg>
                             </gpgArguments>
                         </configuration>
-                        <configuration>
-                            <keyname>$Technoforte-Injiapp</keyname>
-                            <passphraseServerId>$Technoforte-Injiapp</passphraseServerId>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
