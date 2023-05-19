@@ -511,6 +511,10 @@
                                 <arg>loopback</arg>
                             </gpgArguments>
                         </configuration>
+                        <configuration>
+                            <keyname>$D8873AC735AA9EEE</keyname>
+                            <passphraseServerId>$D8873AC735AA9EEE</passphraseServerId>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
