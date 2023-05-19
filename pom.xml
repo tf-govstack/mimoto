@@ -512,8 +512,8 @@
                             </gpgArguments>
                         </configuration>
                         <configuration>
-                            <keyname>$D8873AC735AA9EEE</keyname>
-                            <passphraseServerId>$D8873AC735AA9EEE</passphraseServerId>
+                            <keyname>$Technoforte-Injiapp</keyname>
+                            <passphraseServerId>$Technoforte-Injiapp</passphraseServerId>
                         </configuration>
                     </execution>
                 </executions>
