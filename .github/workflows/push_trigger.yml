@@ -35,7 +35,7 @@ jobs:
           echo ${{ env.BRANCH_NAME }}
           echo ${{ env.GPG_TTY }}
           sudo apt-get --yes install gnupg2
-          gpg2 --import ./.github/keys/technofortegpgkey_pub.gpg
+          gpg2 --import ./.github/keys/Technoforte-Injiappgpgkey_pub.gpg
           gpg2 --quiet --batch --passphrase=${{secrets.gpg_secret}}  --allow-secret-key-import --import ./.github/keys/mosipgpgkey_sec.gpg
 
       - uses: actions/cache@v1
@@ -96,7 +96,7 @@ jobs:
           echo ${{ env.BRANCH_NAME }}
           echo ${{ env.GPG_TTY }}
           sudo apt-get --yes install gnupg2
-          gpg2 --import ./.github/keys/technofortegpgkey_pub.gpg
+          gpg2 --import ./.github/keys/Technoforte-Injiappgpgkey_pub.gpg
           gpg2 --quiet --batch --passphrase=${{secrets.gpg_secret}}  --allow-secret-key-import --import ./.github/keys/mosipgpgkey_sec.gpg
 
       - uses: actions/cache@v1
@@ -218,7 +218,7 @@ jobs:
           echo ${{ env.BRANCH_NAME }}
           echo ${{ env.GPG_TTY }}
           sudo apt-get --yes install gnupg2
-          gpg2 --import ./.github/keys/technofortegpgkey_pub.gpg
+          gpg2 --import ./.github/keys/Technoforte-Injiappgpgkey_pub.gpg
           gpg2 --quiet --batch --passphrase=${{secrets.gpg_secret}}  --allow-secret-key-import --import ./.github/keys/mosipgpgkey_sec.gpg
       - uses: actions/cache@v1
         with:
