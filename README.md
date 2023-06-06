@@ -111,5 +111,5 @@ Copy and replace the new version of the jar files in the bin folder and restart 
 docker-compose restart mimoto-service
 ```
 
-## Credits
+## Credits....
 Credits listed [here](/Credits.md)
